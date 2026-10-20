@@ -218,3 +218,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local seismic datasets and generated artifacts (keep off GitHub)
+/data/
+/outputdata/
+/outputs/
+/results/
+/checkpoints/
+/reconstruction_slices.png
+*.mat
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.segy
+*.sgy
+*.su
+*.asv
+*.pdf
+.env
+.env.*
+!.env.example

@@ -1,0 +1,28 @@
+# DLOTG Algorithm Requirements
+# 用于非规则网格地震数据重建的深度学习算法
+
+# 核心依赖
+torch>=2.0.0              # PyTorch 深度学习框架
+numpy>=1.24.0             # 数值计算库
+scipy>=1.10.0             # 科学计算库 (用于 .mat 文件读写)
+h5py>=3.8.0               # HDF5 格式支持 (用于读取 MATLAB v7.3 文件)
+matplotlib>=3.7.0         # 数据可视化（用于数据加载可视化）
+
+# 可选依赖（根据需要安装）
+# tensorboard>=2.13.0      # 训练监控（如需要可视化训练过程）
+# tqdm>=4.65.0             # 进度条显示
+
+# PyTorch 安装说明：
+# 建议根据 CUDA 版本从 PyTorch 官网安装对应版本
+# 访问: https://pytorch.org/get-started/locally/
+#
+# 例如，对于 CUDA 11.8:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+#
+# 例如，对于 CUDA 12.1:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+#
+# CPU 版本:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+# Python 版本要求：>= 3.8
